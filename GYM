@@ -1,0 +1,148 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RKL FIT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <style>
+          body{
+            margin:0px;
+            padding:0px;
+            background: url('img/bg.jpg');
+            color: white;
+            font-family: font-family: 'Kanit', sans-serif;;
+          }
+          .left{
+           
+            color: white;
+            /* border: 2px solid rgb(230, 0, 255); */
+            position: absolute;
+            top: 20px;
+            left: 33px;
+            display: inline-block;
+            
+          }
+          .left img{
+                width: 30px;
+            }
+          .mid{
+            /* border: 2px solid green; */
+            display: block;
+            width:  50%;
+            margin: 20px auto;
+
+          }
+          .right{
+            position: absolute;
+            top: 20px;
+            right: 33px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+          }
+          .navbar{
+
+            display: inline-block;
+          }
+          .navbar li{
+            display: inline-block;
+            font-size: 25px;
+          }
+          .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+          }
+          .navbar li a:hover, .navbar li a.active{
+             text-decoration: underline;
+             color: grey;
+          }
+          .btn{
+            margin: 0px 9px;
+            background-color:black ;
+            color: white;
+            padding: 4px 14px;
+          
+            border border-radius: 10px;
+            font-size:20px;
+          }
+          .btn:hover{
+            background-color: rgb(31, 30, 30);
+          }
+          .container{
+            background-color: 2px solid rgb(12, 14, 12);
+            /* border:2px solid white; */
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+          }
+          .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        /* border: 2px solid black; */
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }l
+
+    </style>
+</head>
+<body>
+      <header class="header">
+         <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div>
+                Anubhav Fitness
+            </div>
+
+        </div>
+
+         <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+             </ul>
+         </div>
+     <div class="right">
+        <button class="btn">Call us now</button>
+        <button class="btn">Email us</button>
+        </div>
+        
+      </header>
+      <div class="container">
+        <h1>
+            Join the best gym of Rourkela
+        </h1>
+         <div class="form-group">
+            <form action="noaction.php">
+                <input type="text" name="" placeholder="Enter your name">
+         </div>
+         <div class="form-group">
+            <form action="noaction.php">
+                <input type="text" name="" placeholder="Enter your Age">
+         </div>
+         <div class="form-group">
+            <form action="noaction.php">
+                <input type="text" name="" placeholder="Enter your Gender">
+         </div>
+         <button class="btn">Submit</button>
+    
+</body>
+</html>
